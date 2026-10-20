@@ -1,0 +1,6 @@
+# Overlay that mounts the local hello plugin into the web profile.
+# The plugin path MUST be absolute (a patch file does not change how the
+# loader resolves module paths).
+- insert:
+    - id: hello
+      name: '/Users/a12345/Documents/AI-work/love/dsh-custom/deepseek-harness/my-dsh-plugins/hello/src/hello.ts'
